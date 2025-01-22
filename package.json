@@ -82,5 +82,7 @@
     "typescript": "^5"
   },
   "main": "index.js",
+  "repository": "https://github.com/ninazmul/al-falah-investment.git",
+  "author": "ninazmul <nazmulsaw@gmail.com>",
   "license": "MIT"
 }
