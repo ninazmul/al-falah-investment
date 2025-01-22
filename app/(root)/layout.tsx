@@ -14,7 +14,7 @@ export default function RootLayout({
       <div className="fixed w-full mx-auto z-[40] shadow-md">
         <Header />
       </div>
-      <main className="flex-1 pt-36">{children}</main>
+      <main className="flex-1 pt-32">{children}</main>
       <Footer />
     </div>
   );

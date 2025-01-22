@@ -14,7 +14,6 @@ import {
   LayoutDashboard,
   Shield,
   ImageIcon,
-  Text,
   FilesIcon,
 } from "lucide-react";
 import Image from "next/image";
@@ -31,11 +30,6 @@ const sidebarItems = [
     title: "Banners",
     url: "/dashboard/banners",
     icon: ImageIcon,
-  },
-  {
-    title: "NoticeBoard",
-    url: "/dashboard/notices",
-    icon: Text,
   },
   {
     title: "Resources",

@@ -54,7 +54,7 @@ const Hero: React.FC<HeroProps> = ({ banners }) => {
     setIsPaused(false);
   };
   return (
-    <div className="relative bg-[#f6eedd] bg-dotted-pattern bg-cover bg-center h-[1070px] md:h-[1030px] lg:h-[920px] overflow-hidden">
+    <div className="relative bg-[#f6eedd] bg-dotted-pattern bg-cover bg-center h-[1200px] md:h-[1200px] lg:h-[920px] overflow-hidden">
       <div className="absolute flex flex-col lg:flex-row items-center justify-around p-4 md:p-10 lg:p-20 z-20 gap-12 lg:gap-0 mx-auto w-full">
         <div className="flex justify-center w-full lg:w-1/2">
           <div
@@ -113,7 +113,7 @@ const Hero: React.FC<HeroProps> = ({ banners }) => {
         </div>
       </div>
       <div className="absolute -right-20 top-[90%] md:top-[85%] lg:-top-20 rounded-full p-24 md:p-30 bg-primary-500 lg:bg-yellow-400 " />
-      <div className="absolute top-0 left-0 w-full h-96 md:h-[920px] lg:left-0 lg:w-64 bg-primary-500 lg:min-h-screen" />
+      <div className="absolute top-0 left-0 w-full h-96 lg:h-[920px] lg:left-0 lg:w-64 bg-primary-500 lg:min-h-screen" />
     </div>
   );
 };
