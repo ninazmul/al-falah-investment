@@ -1,26 +1,26 @@
 import Image from "next/image";
 
-const CollaborateAndPartnerships = () => {
+const JoinUsForFuture = () => {
   return (
-    <div className="relative h-[750px] md:h-[800px] lg:h-[530px] overflow-hidden">
+    <div className="relative h-[820px] md:h-[800px] lg:h-[520px] overflow-hidden">
       <div className="absolute flex flex-col lg:flex-row items-center justify-around p-10 lg:p-20 z-20 gap-12 lg:gap-0 mx-auto w-full">
         <div className="w-full lg:w-1/2 space-y-4">
           <h3 className="p-medium-12 md:p-medium-16 text-primary-500">
-            Be Part of us
+            Join Us in
           </h3>
           <h1 className="h2-bold">
-            Collaboration and{" "}
-            <span className="text-primary-500">Partnerships</span>
+            Building a <span className="text-primary-500">Brighter Future</span>
           </h1>
           <p className="p-regular-16 md:p-regular-20 text-muted-foreground">
-            Building schools, masjids, and learning organizations is not a task
-            we aim to accomplish alone. We will collaborate with other
-            educational institutions, community organizations, local
-            governments, and Muslim leaders to create a holistic infrastructure
-            that supports education in all forms. Partnerships with Islamic
-            scholars, educators, architects, and community members will help
-            ensure that our facilities meet the highest standards of educational
-            excellence and are truly reflective of Islamic values.
+            Invest in the future of education, faith, and community. Your
+            investment will help shape the leaders of tomorrow—leaders who are
+            grounded in knowledge, wisdom, and the values of Islam.
+            <br />
+            <br />
+            With Al Falah Investment, your investment doesn’t just grow your
+            wealth—it helps build a legacy of education and faith that will last
+            for generations. Let&#39;s work together to shape the future of
+            Islamic education in Australia.
           </p>
         </div>
         <div className="flex justify-center w-full lg:w-1/2 relative">
@@ -39,4 +39,4 @@ const CollaborateAndPartnerships = () => {
   );
 };
 
-export default CollaborateAndPartnerships;
+export default JoinUsForFuture;

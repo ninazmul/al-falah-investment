@@ -1,8 +1,8 @@
-import BuildingMasjids from "@/components/shared/BuildingMasjids";
-import BuildingOrganizations from "@/components/shared/BuildingOrganizations";
-import BuildingSchools from "@/components/shared/BuildingSchools";
-import CollaborateAndPartnerships from "@/components/shared/CollaborateAndPartnerships.tsx";
-import ProjectsConclusion from "@/components/shared/ProjectsConclusion";
+import GetInTouchToLearnMore from "@/components/shared/GetInTouchToLearnMore";
+import ImpactOfInvestment from "@/components/shared/ImpactOfInvestment";
+import IslamicEducation from "@/components/shared/IslamicEducation";
+import JoinUsForFuture from "@/components/shared/JoinUsForFuture";
+import ShariaCompliant from "@/components/shared/ShariaCompliant";
 
 export default function ProjectPage() {
   return (
@@ -15,19 +15,19 @@ export default function ProjectPage() {
         </div>
       </section>
       <section className="bg-gray-50">
-        <BuildingSchools />
+        <IslamicEducation />
       </section>
       <section className="bg-gray-50">
-        <BuildingMasjids />
+        <ShariaCompliant />
       </section>
       <section className="bg-gray-50">
-        <BuildingOrganizations />
+        <ImpactOfInvestment />
       </section>
       <section className="bg-gray-50">
-        <CollaborateAndPartnerships />
+        <GetInTouchToLearnMore />
       </section>
       <section className="bg-gray-50">
-        <ProjectsConclusion />
+        <JoinUsForFuture />
       </section>
     </>
   );
