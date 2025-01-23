@@ -1,29 +1,27 @@
 import Image from "next/image";
 
-const HelpToChange = () => {
+const JoinInLegacy = () => {
   return (
-    <div className="relative h-[750px] md:h-[800px] lg:h-[530px] overflow-hidden">
+    <div className="relative h-[700px] md:h-[730px] lg:h-[500px] overflow-hidden">
       <div className="absolute flex flex-col lg:flex-row items-center justify-around p-10 lg:p-20 z-20 gap-12 lg:gap-0 mx-auto w-full">
         <div className="w-full lg:w-1/2 space-y-4">
           <h3 className="p-medium-12 md:p-medium-16 text-primary-500">
-            Be Part of a Lasting Impact
+            Join Us in
           </h3>
           <h1 className="h2-bold">
-            Help To Change a{" "}
-            <span className="text-primary-500">Life Forever</span>
+            Building a <span className="text-primary-500">Legacy</span>
           </h1>
           <p className="p-regular-16 md:p-regular-20 text-muted-foreground">
-            By supporting Al Falah Investment, you’re investing in the future of
-            our children and the broader Australian-Muslim community. Your
-            contribution will help us provide quality education, build a mosque,
-            and create a community center that fosters growth, leadership, and
-            faith. Together, we can shape the leaders of tomorrow and strengthen
-            our community.
+            At Al Falah Investment, we are not just focused on immediate
+            profits—we are building a legacy that will have a lasting, positive
+            effect on society. By partnering with us, you become part of a
+            movement to create better educational opportunities, strengthen the
+            foundation of faith, and foster a thriving, supportive community.
           </p>
         </div>
         <div className="flex justify-center w-full lg:w-1/2 relative">
           <Image
-            src="/assets/images"
+            src="/assets/images/Service/knowledge.png"
             width={500}
             height={500}
             alt="Al Falah Investment logo"
@@ -37,4 +35,4 @@ const HelpToChange = () => {
   );
 };
 
-export default HelpToChange;
+export default JoinInLegacy;

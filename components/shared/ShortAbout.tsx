@@ -10,11 +10,13 @@ const ShortAbout = () => {
         About <span className="text-primary-500">Al Falah Investment</span>
       </h1>
       <p className="p-regular-16 md:p-regular-20 text-gray-600">
-        Al Falah Investment is more than just a school—it’s a community
-        dedicated to empowering young Australian Muslims. Founded by three
-        passionate individuals who met during Hajj, we are committed to
-        fostering a learning environment where children thrive academically,
-        spiritually, and morally.
+        We recognize the transformative power of education and spirituality in
+        building resilient communities. That’s why our focus is on supporting
+        projects that provide quality Islamic education and create spaces for
+        worship and spiritual growth. By investing with Al Falah, you are not
+        only securing financial returns but also playing an essential role in
+        developing the infrastructure that nurtures future leaders, scholars,
+        and community members.
       </p>
     </div>
   );
