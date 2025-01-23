@@ -52,41 +52,41 @@ const ContactInformation = () => {
                 <li className="text-sm md:text-md text-muted-foreground flex items-center gap-1 font-semibold">
                   <Dot /> General Inquiries:{" "}
                   <a
-                    href="mailto:islamic.edu.aus@gmail.com"
+                    href="mailto:alfalahinvest@gmail.com"
                     className="text-blue-800 font-semibold underline"
                     target="_blank"
                   >
-                    info@islamicedu.com.au
+                    info@alfalahinvest.com.au
                   </a>{" "}
                 </li>
                 <li className="text-sm md:text-md text-muted-foreground flex items-center gap-1 font-semibold">
                   <Dot /> Events and Programs:{" "}
                   <a
-                    href="mailto:islamic.edu.aus@gmail.com"
+                    href="mailto:alfalahinvest@gmail.com"
                     className="text-blue-800 font-semibold underline"
                     target="_blank"
                   >
-                    events@islamicedu.com.au
+                    events@alfalahinvest.com.au
                   </a>{" "}
                 </li>
                 <li className="text-sm md:text-md text-muted-foreground flex items-center gap-1 font-semibold">
                   <Dot /> Support and Donations:{" "}
                   <a
-                    href="mailto:islamic.edu.aus@gmail.com"
+                    href="mailto:alfalahinvest@gmail.com"
                     className="text-blue-800 font-semibold underline"
                     target="_blank"
                   >
-                    support@islamicedu.com.au
+                    support@alfalahinvest.com.au
                   </a>{" "}
                 </li>
                 <li className="text-sm md:text-md text-muted-foreground flex items-center gap-1 font-semibold">
                   <Dot /> Partnerships and Collaborations:{" "}
                   <a
-                    href="mailto:islamic.edu.aus@gmail.com"
+                    href="mailto:alfalahinvest@gmail.com"
                     className="text-blue-800 font-semibold underline"
                     target="_blank"
                   >
-                    partnerships@islamicedu.com.au
+                    partnerships@alfalahinvest.com.au
                   </a>{" "}
                 </li>
               </ol>
