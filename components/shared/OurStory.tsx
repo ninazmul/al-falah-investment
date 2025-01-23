@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const OurStory = () => {
   return (
-    <div className="relative h-[1450px] md:h-[1250px] lg:h-[1000px] overflow-hidden">
+    <div className="relative h-[1570px] md:h-[1300px] lg:h-[1070px] overflow-hidden">
       <div className="absolute flex flex-col-reverse lg:flex-row items-center justify-around p-10 lg:p-20 z-20 gap-12 lg:gap-0 mx-auto w-full">
         <div className="flex justify-center w-full lg:w-1/2 relative">
           <Image
@@ -17,38 +17,42 @@ const OurStory = () => {
         </div>
         <div className="w-full lg:w-1/2 space-y-4">
           <h3 className="p-medium-12 md:p-medium-16 text-primary-500">
-            A Journey of Faith, Education, and Community Building
+            The Creation of Al Falah Investment Pty Ltd
           </h3>
           <h1 className="h2-bold">
-            Our <span className="text-primary-500">Story</span>
+            Building a Legacy of{" "}
+            <span className="text-primary-500">
+              Faith, Education, and Community
+            </span>
           </h1>
           <div className="space-y-4">
             <p className="p-regular-16 md:p-regular-20 text-muted-foreground">
-              Al Falah Investment was born from a shared vision and a spiritual
-              journey. The founding members connected during their Hajj
-              pilgrimage, where they discovered a mutual passion for education
-              and community building. Inspired by their faith and love for the
-              Muslim community, they committed to creating a space where young
-              Australian Muslims could thrive academically, spiritually, and
-              socially.
+              Al Falah Investment Pty Ltd was created out of a deep-seated
+              belief in the power of education and faith to transform lives and
+              communities. As Muslims living in Australia, we recognized that
+              the need for robust, high-quality Islamic educational institutions
+              and places of worship—masjids—was growing at an unprecedented
+              rate. At the same time, we saw a growing disconnect between the
+              demand for these essential community structures and the resources
+              available to build and sustain them.
             </p>
             <p className="p-regular-16 md:p-regular-20 text-muted-foreground">
-              Al Falah Investment was born from a shared vision and a spiritual
-              journey. The founding members connected during their Hajj
-              pilgrimage, where they discovered a mutual passion for education
-              and community building. Inspired by their faith and love for the
-              Muslim community, they committed to creating a space where young
-              Australian Muslims could thrive academically, spiritually, and
-              socially.
+              Islamic schools and masjids are more than just buildings—they are
+              the heart of the Muslim community. They provide not only the
+              foundation for spiritual growth but also the tools for academic
+              excellence, leadership, and community engagement. However, despite
+              the increasing need for these institutions, many of the projects
+              designed to build and expand them faced significant financial
+              barriers.
             </p>
             <p className="p-regular-16 md:p-regular-20 text-muted-foreground">
-              Al Falah Investment was born from a shared vision and a spiritual
-              journey. The founding members connected during their Hajj
-              pilgrimage, where they discovered a mutual passion for education
-              and community building. Inspired by their faith and love for the
-              Muslim community, they committed to creating a space where young
-              Australian Muslims could thrive academically, spiritually, and
-              socially.
+              This gap inspired the founding of Al Falah Investment Pty Ltd. We
+              envisioned an ethical, Sharia-compliant investment company that
+              would provide a platform for the community to come together and
+              contribute towards the development of these vital institutions.
+              Through this initiative, we sought to create a sustainable model
+              for funding Islamic school and masjid projects, ensuring that
+              these institutions would continue to serve future generations.
             </p>
           </div>
         </div>

@@ -1,5 +1,10 @@
+import JoinUsLegacy from "@/components/shared/JoinUsLegacy";
+import OurCommitment from "@/components/shared/OurCommitment";
+import OurFocus from "@/components/shared/OurFocus";
+import OurLegacyAndVision from "@/components/shared/OurLegacyAndVision";
+import OurNeedForCommunity from "@/components/shared/OurNeedForCommunity";
 import OurStory from "@/components/shared/OurStory";
-import OurTeam from "@/components/shared/OurTeam";
+import OurVisionForAFI from "@/components/shared/OurVisionForAFI";
 
 export default function AboutPage() {
   return (
@@ -13,7 +18,22 @@ export default function AboutPage() {
         <OurStory />
       </section>
       <section className="bg-gray-50">
-        <OurTeam />
+        <OurFocus />
+      </section>
+      <section className="bg-gray-50">
+        <OurVisionForAFI />
+      </section>
+      <section className="bg-gray-50">
+        <OurNeedForCommunity />
+      </section>
+      <section className="bg-gray-50">
+        <OurCommitment />
+      </section>
+      <section className="bg-gray-50">
+        <OurLegacyAndVision />
+      </section>
+      <section className="bg-gray-50">
+        <JoinUsLegacy />
       </section>
     </>
   );
