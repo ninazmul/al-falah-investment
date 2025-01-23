@@ -4,7 +4,7 @@ import React from "react";
 import { Button } from "../ui/button";
 import { SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
 import NavItems from "./NavItems";
-import { LogIn, Shield} from "lucide-react";
+import { LogIn, Shield } from "lucide-react";
 import MobileNav from "./MobileNav";
 import { auth } from "@clerk/nextjs/server";
 import { getUserEmailById } from "@/lib/actions/user.actions";
@@ -33,7 +33,7 @@ export default async function Header() {
               Al Falah Investment
             </h1>
             <h1 className="md:hidden text-lg md:text-2xl lg:text-4xl font-serif font-bold">
-              Islamic <br /> Education <br /> Australia
+              Al Falah <br /> Investment
             </h1>
             <i className="hidden md:flex top-10 text-xs text-center justify-center lg:text-sm w-full">
               Invest In Your Ultimate Success
