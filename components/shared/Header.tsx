@@ -29,13 +29,10 @@ export default async function Header() {
             alt="Al Falah Investment logo"
           />
           <div className="flex flex-col justify-center items-center">
-            <h1 className="hidden md:flex text-lg md:text-2xl lg:text-4xl font-serif font-bold">
+            <h1 className="flex text-lg md:text-2xl lg:text-4xl font-serif font-bold">
               Al Falah Investment
             </h1>
-            <h1 className="md:hidden text-lg md:text-2xl lg:text-4xl font-serif font-bold">
-              Al Falah <br /> Investment
-            </h1>
-            <i className="hidden md:flex top-10 text-xs text-center justify-center lg:text-sm w-full">
+            <i className="flex top-10 text-xs text-center justify-center lg:text-sm w-full line-clamp-1">
               Invest In Your Ultimate Success
             </i>
           </div>
