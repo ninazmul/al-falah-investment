@@ -31,7 +31,7 @@ const IslamicEducation = () => {
         </p>
         <div className="flex justify-center w-full relative p-10">
           <Image
-            src="/assets/images/Service/knowledge.png"
+            src="/assets/images/freepik__the-style-is-candid-image-photography-with-natural__99675.png"
             width={500}
             height={500}
             alt="Al Falah Investment logo"

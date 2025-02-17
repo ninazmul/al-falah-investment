@@ -34,7 +34,7 @@ const OurNeedForCommunity = () => {
         </div>
         <div className="flex justify-center w-full lg:w-1/2 relative">
           <Image
-            src="/assets/images/Service/knowledge.png"
+            src="/assets/images/freepik__the-style-is-candid-image-photography-with-natural__99677.png"
             width={500}
             height={500}
             alt="Al Falah Investment logo"
