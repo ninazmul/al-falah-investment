@@ -54,7 +54,7 @@ const Hero: React.FC<HeroProps> = ({ banners }) => {
     setIsPaused(false);
   };
   return (
-    <div className="relative bg-[#f6eedd] bg-dotted-pattern bg-cover bg-center h-[1200px] md:h-[1200px] lg:h-[920px] overflow-hidden">
+    <div className="relative bg-[#f6eedd] bg-dotted-pattern bg-cover bg-center h-[1300px] md:h-[1200px] lg:h-[1000px] overflow-hidden">
       <div className="absolute flex flex-col lg:flex-row items-center justify-around p-4 md:p-10 lg:p-20 z-20 gap-12 lg:gap-0 mx-auto w-full">
         <div className="flex justify-center w-full lg:w-1/2">
           <div
@@ -86,9 +86,10 @@ const Hero: React.FC<HeroProps> = ({ banners }) => {
         </div>
         <div className="w-full lg:w-1/2 space-y-4">
           <h1 className="h1-bold">
-            Welcome to Al Falah Investment Pty Ltd –{" "}
+            Welcome to Al Falah Investment –{" "}
             <span className="text-primary-500">
-              Investing in Education and Faith
+              Investing in building faith and knowledge for the ultimate
+              success
             </span>
           </h1>
           <p className="p-regular-16 md:p-regular-20">
@@ -113,7 +114,7 @@ const Hero: React.FC<HeroProps> = ({ banners }) => {
         </div>
       </div>
       <div className="absolute -right-20 top-[90%] md:top-[85%] lg:-top-20 rounded-full p-24 md:p-30 bg-primary-500 lg:bg-yellow-400 " />
-      <div className="absolute top-0 left-0 w-full h-96 lg:h-[920px] lg:left-0 lg:w-64 bg-primary-500 lg:min-h-screen" />
+      <div className="absolute top-0 left-0 w-full h-96 lg:h-[1000px] lg:left-0 lg:w-64 bg-primary-500 lg:min-h-screen" />
     </div>
   );
 };
