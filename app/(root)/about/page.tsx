@@ -5,6 +5,7 @@ import OurLegacyAndVision from "@/components/shared/OurLegacyAndVision";
 import OurNeedForCommunity from "@/components/shared/OurNeedForCommunity";
 import OurStory from "@/components/shared/OurStory";
 import OurVisionForAFI from "@/components/shared/OurVisionForAFI";
+import OurTeam from "@/components/shared/OurTeam";
 
 export default function AboutPage() {
   return (
@@ -34,6 +35,9 @@ export default function AboutPage() {
       </section>
       <section className="bg-gray-50">
         <JoinUsLegacy />
+      </section>
+      <section className="bg-gray-50">
+        <OurTeam />
       </section>
     </>
   );
