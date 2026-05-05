@@ -1,9 +1,9 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
-import { ImFacebook } from "react-icons/im";
-import { FaXTwitter, FaLinkedinIn } from "react-icons/fa6";
+// import Link from "next/link";
+// import { ImFacebook } from "react-icons/im";
+// import { FaXTwitter, FaLinkedinIn } from "react-icons/fa6";
 
 const teamMembers = [
   {
@@ -11,11 +11,11 @@ const teamMembers = [
     role: "Managing Director",
     image: "/assets/images/Teams/MH IEA Profile Photo 3.png",
     description:
-      "An experienced professional with a strong background in education and community development. He has a proven track record of successfully managing educational institutions and fostering community engagement. With a passion for creating positive change, Mizan is dedicated to leading initiatives that enhance educational opportunities and promote social development. His leadership style is characterized by collaboration, innovation, and a commitment to excellence.",
+      "Dedicated and resourceful commercial finance professional offering 30+ years of expertise in all facets of accounting, financial management, financial analysis and controllership within complex business environments. People oriented & proactive individual with strong business collaboration skills in delivering business support, streamlining & improving processes and implementing technology solutions to achieve business and financial objectives.",
     socials: {
       facebook: "https://facebook.com/johndoe",
       twitter: "https://twitter.com/johndoe",
-      linkedin: "https://linkedin.com/in/johndoe",
+      linkedin: "https://www.linkedin.com/in/mizanhowlader",
     },
   },
   {
@@ -89,7 +89,9 @@ const OurTeam = () => {
                 />
               </div>
               <div className="w-full lg:w-1/2 space-y-4 lg:px-10 text-center lg:text-left">
-                <h2 className="text-3xl font-bold md:text-4xl">{member.name}</h2>
+                <h2 className="text-3xl font-bold md:text-4xl">
+                  {member.name}
+                </h2>
                 <h3 className="text-xl font-semibold text-primary-500 mb-4">
                   {member.role}
                 </h3>
@@ -98,7 +100,7 @@ const OurTeam = () => {
                     <p key={i}>{para}</p>
                   ))}
                 </div>
-                <div className="flex items-center justify-center lg:justify-start gap-4 pt-6 pb-2">
+                {/* <div className="flex items-center justify-center lg:justify-start gap-4 pt-6 pb-2">
                   <Link href={member.socials.facebook} target="_blank">
                     <ImFacebook className="size-10 bg-primary-500 p-2.5 rounded-md text-white hover:text-black shadow hover:bg-yellow-400 transition-colors" />
                   </Link>
@@ -108,7 +110,7 @@ const OurTeam = () => {
                   <Link href={member.socials.linkedin} target="_blank">
                     <FaLinkedinIn className="size-10 bg-primary-500 p-2.5 rounded-md text-white hover:text-black shadow hover:bg-yellow-400 transition-colors" />
                   </Link>
-                </div>
+                </div> */}
               </div>
             </div>
           );
