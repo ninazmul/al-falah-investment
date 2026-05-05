@@ -55,40 +55,64 @@ const OurTeam = () => {
           Our <span className="text-primary-500">Team</span>
         </h1>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-10">
-        {teamMembers.map((member, index) => (
-          <div
-            key={index}
-            className="flex flex-col items-center text-center space-y-4 p-6 shadow-lg rounded-md"
-          >
-            <div className="flex justify-center w-full relative py-4">
-              <Image
-                src={member.image}
-                width={500}
-                height={500}
-                alt={member.name}
-                className="w-full md:w-2/3 rounded-lg shadow-md relative z-10"
-              />
-              <div className="absolute right-[2%] md:right-[8%] lg:right-[10%] top-[0%] rounded-none p-6 md:p-8 bg-primary-500 " />
-              <div className="absolute left-[2%] md:left-[8%] lg:left-[10%] bottom-[0%] rounded-none p-6 md:p-8 bg-yellow-400 " />
-            </div>
-            <div className="pt-4">
-              <h2 className="font-bold text-lg">{member.name}</h2>
-              <h3 className="text-primary-500">{member.role}</h3>
-              <div className="flex items-center justify-center gap-4 py-4">
-                <Link href={member.socials.facebook} target="_blank">
-                  <ImFacebook className="size-8 bg-primary-500 p-2 rounded-md text-white hover:text-black shadow hover:bg-yellow-400 transition-colors" />
-                </Link>
-                <Link href={member.socials.twitter} target="_blank">
-                  <FaXTwitter className="size-8 bg-primary-500 p-2 rounded-md text-white hover:text-black shadow hover:bg-yellow-400 transition-colors" />
-                </Link>
-                <Link href={member.socials.linkedin} target="_blank">
-                  <FaLinkedinIn className="size-8 bg-primary-500 p-2 rounded-md text-white hover:text-black shadow hover:bg-yellow-400 transition-colors" />
-                </Link>
+      <div className="space-y-20 lg:space-y-32 mt-10 md:mt-20">
+        {teamMembers.map((member, index) => {
+          const isEven = index % 2 === 0;
+          return (
+            <div
+              key={index}
+              className={`flex flex-col gap-12 lg:gap-0 items-center justify-around mx-auto w-full ${
+                isEven ? "lg:flex-row" : "lg:flex-row-reverse"
+              }`}
+            >
+              <div className="flex justify-center w-full lg:w-1/2 relative py-4">
+                <Image
+                  src={member.image}
+                  width={500}
+                  height={500}
+                  alt={member.name}
+                  className="w-full sm:w-2/3 lg:w-3/4 rounded-lg shadow-md relative z-10"
+                />
+                <div
+                  className={`absolute ${
+                    isEven
+                      ? "-right-[2%] md:right-[10%] lg:right-[5%]"
+                      : "-left-[2%] md:left-[10%] lg:left-[5%]"
+                  } -top-[5%] md:-top-[10%] rounded-none p-8 md:p-12 lg:p-16 bg-primary-500 z-0`}
+                />
+                <div
+                  className={`absolute ${
+                    isEven
+                      ? "-left-[2%] md:left-[10%] lg:left-[5%]"
+                      : "-right-[2%] md:right-[10%] lg:right-[5%]"
+                  } -bottom-[5%] md:-bottom-[10%] rounded-none p-8 md:p-12 lg:p-16 bg-yellow-400 z-0`}
+                />
+              </div>
+              <div className="w-full lg:w-1/2 space-y-4 lg:px-10 text-center lg:text-left">
+                <h2 className="text-3xl font-bold md:text-4xl">{member.name}</h2>
+                <h3 className="text-xl font-semibold text-primary-500 mb-4">
+                  {member.role}
+                </h3>
+                <div className="text-sm md:text-base text-muted-foreground leading-relaxed flex-grow space-y-4">
+                  {member.description.split("\n").map((para, i) => (
+                    <p key={i}>{para}</p>
+                  ))}
+                </div>
+                <div className="flex items-center justify-center lg:justify-start gap-4 pt-6 pb-2">
+                  <Link href={member.socials.facebook} target="_blank">
+                    <ImFacebook className="size-10 bg-primary-500 p-2.5 rounded-md text-white hover:text-black shadow hover:bg-yellow-400 transition-colors" />
+                  </Link>
+                  <Link href={member.socials.twitter} target="_blank">
+                    <FaXTwitter className="size-10 bg-primary-500 p-2.5 rounded-md text-white hover:text-black shadow hover:bg-yellow-400 transition-colors" />
+                  </Link>
+                  <Link href={member.socials.linkedin} target="_blank">
+                    <FaLinkedinIn className="size-10 bg-primary-500 p-2.5 rounded-md text-white hover:text-black shadow hover:bg-yellow-400 transition-colors" />
+                  </Link>
+                </div>
               </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );
